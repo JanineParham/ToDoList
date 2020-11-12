@@ -49,4 +49,14 @@ public class Task {
     public void setComplete(Boolean complete) {
         isComplete = complete;
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", todoList=" + todoList +
+                ", description='" + description + '\'' +
+                ", isComplete=" + isComplete +
+                '}';
+    }
 }
